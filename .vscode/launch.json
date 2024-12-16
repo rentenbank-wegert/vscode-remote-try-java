@@ -1,5 +1,21 @@
 {
     "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Launch Java Program - Run",
+            "request": "launch",
+            "mainClass": "",
+            "vmArgs": ["-DconfigurationsName=\"Launch Java Program - Run\"", "-Xmx1g", "-Dserver=production"]
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program - Debug",
+            "request": "launch",
+            "stopOnEntry": true,
+            "mainClass": "",
+            "vmArgs": ["-DconfigurationsName=\"Launch Java Program - Debug\"", "-Xmx1g", "-Dserver=production"]
+        },
         {
             "type": "java",
             "name": "Launch App",
